@@ -1,3 +1,17 @@
+# Bitski React Example
+
+This is a simple example of how you can use the Bitski SDK within a React application.
+
+## Setup
+
+To try it out:
+- Install all the dependencies by running `npm install` in this directory.
+
+To customize this project:
+- Create your own Bitski client id, by registering at the developer portal: https://developer.bitski.com
+- Add http://localhost:3000/callback.html (and eventually your public domain) to your app's redirect urls
+- Update the client id variable in the `.env` file in this directory with your own
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
