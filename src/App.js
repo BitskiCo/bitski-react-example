@@ -5,16 +5,12 @@ import './App.css';
 import { AuthenticationStatus } from 'bitski';
 
 class ErrorMessage extends React.Component {
-
   render() {
-    if (!this.props.error) {
-      return null;
-    }
+    if (!this.props.error) { return null; }
     return (
       <p className="text-danger">{this.state.error.message}</p>
     );
   }
-
 }
 
 export default class App extends React.Component {
